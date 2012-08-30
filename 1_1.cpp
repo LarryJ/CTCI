@@ -27,7 +27,7 @@ bool check_unique_char(string str)
 int main()
 {
   string str;
-  getline(cin, str );
+  getline(cin, str);
   cout << check_unique_char(str) << endl;
   return 0;
 }
